@@ -1,5 +1,5 @@
+//Exercicio 1
 function is_prime(a,b){
-  let diferencaA = 0;
   if(a === b){
     console.log("Não são primos entre si");
     return false
@@ -20,4 +20,21 @@ function is_prime(a,b){
 }
 is_prime(5,10);
   
+}
+
+
+//Exercicio 2
+function mdcRecursive(a, b) {
+    if (b == 0) {
+        return a;
+    }
+    return mdcRecursive(b, a % b);
+}
+
+//Implementação exemplo
+if (mdcRecursive(4,6) == 1){
+  console.log('Primos entre si')
+}
+else {
+  console.log('Não são primos entre si')
 }
