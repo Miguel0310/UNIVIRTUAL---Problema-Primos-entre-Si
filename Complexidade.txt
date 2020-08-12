@@ -1,0 +1,6 @@
+#Exercicio 1
+
+Ao possuir somente um laço de repetição, a complexidade do algoritmo será de O(n)
+
+#Exercicio 2
+O algoritmo trabalha com recursividade, não possui nenhum laço de repetição. O(1)
